@@ -17,8 +17,8 @@ using Umbraco.Core.Models.PublishedContent;
 using Umbraco.Web;
 using Umbraco.ModelsBuilder.Embedded;
 
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "8c6f7e68e3755fd1")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "ac24818537abb1f8")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.4")]
 
 namespace Umbraco.Web.PublishedModels
 {
@@ -48,20 +48,31 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Title: Enter a title
+		/// Main Content: main content
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		[ImplementPropertyType("title")]
-		public string Title => global::Umbraco.Web.PublishedModels.BasicContentControls.GetTitle(this);
+		[ImplementPropertyType("mainContent")]
+		public global::System.Web.IHtmlString MainContent => global::Umbraco.Web.PublishedModels.BasicContentControls.GetMainContent(this);
+
+		///<summary>
+		/// Page Title: Enter a title
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle => global::Umbraco.Web.PublishedModels.BasicContentControls.GetPageTitle(this);
 	}
 
 	// Mixin Content Type with alias "basicContentControls"
 	/// <summary>Basic Content Controls</summary>
 	public partial interface IBasicContentControls : IPublishedContent
 	{
-		/// <summary>Title</summary>
+		/// <summary>Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		string Title { get; }
+		global::System.Web.IHtmlString MainContent { get; }
+
+		/// <summary>Page Title</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		string PageTitle { get; }
 	}
 
 	/// <summary>Basic Content Controls</summary>
@@ -90,15 +101,26 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Title: Enter a title
+		/// Main Content: main content
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		[ImplementPropertyType("title")]
-		public string Title => GetTitle(this);
+		[ImplementPropertyType("mainContent")]
+		public global::System.Web.IHtmlString MainContent => GetMainContent(this);
 
-		/// <summary>Static getter for Title</summary>
+		/// <summary>Static getter for Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		public static string GetTitle(IBasicContentControls that) => that.Value<string>("title");
+		public static global::System.Web.IHtmlString GetMainContent(IBasicContentControls that) => that.Value<global::System.Web.IHtmlString>("mainContent");
+
+		///<summary>
+		/// Page Title: Enter a title
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle => GetPageTitle(this);
+
+		/// <summary>Static getter for Page Title</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		public static string GetPageTitle(IBasicContentControls that) => that.Value<string>("pageTitle");
 	}
 
 	/// <summary>Folder</summary>
