@@ -62,4 +62,29 @@
       <file name="/umbraco/lib/tinymce/plugins/noneditable/plugin.min.js" />
     </files>
   </item>
+  <item key="L3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzOy92ZW5kb3IvZm9udGF3ZXNvbWUtZnJlZS9jc3MvYWxsLm1pbi5jc3M7" file="C:\Users\Reece\source\repos\CleanBlog\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_ae77ce472e544f36afa8f47d1eb4521a.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/bootstrap/css/bootstrap.min.css" />
+      <file name="/vendor/fontawesome-free/css/all.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9qcXVlcnkvanF1ZXJ5Lm1pbi5qczsvdmVuZG9yL2Jvb3RzdHJhcC9qcy9ib290c3RyYXAuYnVuZGxlLm1pbi5qczsvanMvY2xlYW4tYmxvZy5taW4uanM7" file="C:\Users\Reece\source\repos\CleanBlog\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_ea819e9bf46848bebcc26f2ef4f3ea6e.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+    </files>
+  </item>
+  <item key="L2Nzcy9jbGVhbi1ibG9nLm1pbi5jc3M7" file="C:\Users\Reece\source\repos\CleanBlog\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_375abbe608a94a93b137bb65feaceb30.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/css/clean-blog.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9qcXVlcnkvanF1ZXJ5Lm1pbi5qczsvdmVuZG9yL2Jvb3RzdHJhcC9qcy9ib290c3RyYXAuYnVuZGxlLm1pbi5qczsvanMvY2xlYW4tYmxvZy5taW4uanM7L3NjcmlwdHMvcGxlYXNlZG9udGdvLmpzOw" file="C:\Users\Reece\source\repos\CleanBlog\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_04b65ef96f3145ba82cd51ae0b1cf1cb.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+    </files>
+  </item>
 </map>
